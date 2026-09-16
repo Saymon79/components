@@ -1,8 +1,9 @@
 <?php
 
-function router(){
+function router()
+{
     echo "2. Router está analisando a URL.<br>";
     $rota = "/usuarios";
     $parametro = "id=123";
-    middlewere($rota);
+    middleware($rota);
 }

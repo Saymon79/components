@@ -1,3 +1,3 @@
 <?php
-echo "Hello, bernardo!";
-echo "Hello, bernardo!";
+
+include __DIR__ . '/main.php';

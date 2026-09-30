@@ -2,8 +2,8 @@
 
 function router()
 {
-    echo "2. Router está analisando a URL.<br>";
-    $rota = "/usuários";
-    $parametro = "id=123";
+    echo "2. CBF está analisando os convocados.<br>";
+    $rota = "/jogadores";
+    $parametro = "id=12345";
     middleware($rota);
 }

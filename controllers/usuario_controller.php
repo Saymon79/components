@@ -1,11 +1,11 @@
 <?php
   function usuarioController(){
-     echo "6. Controller recebeu a requisição.<br>";
-    $usuarios = usuarioService();
-echo "8. Controller recebeu os dados do Service.<br>";
+     echo "6. Brasil tem time pronto para jogo.<br>";
+    $jogadores = usuarioService();
+echo "8. Brasil vence por 67 x 42.<br>";
     echo "Usuários encontrados:<br>";
-foreach ($usuarios as $usuarios) {
-          echo "-". $usuarios . "<br>";
+foreach ($jogadores as $jogadores) {
+          echo "-". $jogadores . "<br>";
       }
 
 }
